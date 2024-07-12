@@ -7,31 +7,68 @@
   body {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 0 10px;
+    justify-content: right;
+    
     min-height: 100vh;
-    background: yellow;
+    background: #f1f1f1;
   }
   form {
     padding: 25px;
+    padding-top: 0px;
     background: #fff;
-    max-width: 500px;
+    max-width: 750px;
     width: 100%;
+    max-height: 909px;
+    height: 100%;
     border-radius: 7px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+    margin-right: 116px;
+    padding-right: 285px;
+    padding-left: 45px;
   }
   form h2 {
     font-size: 20px;
     align-items: center;
-    margin: 45px 75px 19px 45px;
+    margin: 45px 75px 19px 0px;
   }
+
+  .topbram1{
+    /* padding: 12px 30px 13px 64px; */
+    margin: 12px 15px 13px 19px;
+    font-weight: bold;
+    
+}
+
+.topbram2{
+    /* padding: 12px 30px 13px 19px; */
+    margin: 12px 15px 13px 15px;
+    
+}
+
+.topbram3{
+    /* padding: 12px 30px 13px 19px; */
+    margin: 12px 15px 13px 15px;
+}
+
+.maintop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid  lightgray    ; */
+    width: 660px;
+    height: 50px;
+    background-color: #eceaea;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
   form .form-group {
     margin-bottom: 15px;
     position: relative;
   }
   form label {
     display: block;
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 7px;
   }
   form input,
@@ -39,11 +76,11 @@
     height: 45px;
     padding: 10px;
     width: 100%;
-    font-size: 15px;
+    font-size: 14px;
     outline: none;
     background: #fff;
     border-radius: 3px;
-    border: 1px solid #bfbfbf;
+    border: 1px solid #e4e4e4;
   }
   form input:focus,
   form select:focus {
@@ -51,7 +88,7 @@
   }
   form input.error,
   form select.error {
-    border-color: #f91919;
+    border-color: #b8b2b2;
     background: #f9f0f1;
   }
   form small {
@@ -79,7 +116,7 @@
     color: white;
     border: none;
     height: auto;
-    font-size: 16px;
+    font-size: 14px;
     padding: 13px 0;
     border-radius: 5px;
     cursor: pointer;
@@ -94,5 +131,20 @@
 
   .nomertel{
     display: flex;
-    justify-content: space-between;
+    
+    
+  }
+  .polenomer2{
+    margin-left: 10px;
+    width: 230px;
+  }
+ 
+
+  .gender{
+    padding-right: 150px;
+  }
+
+  .submit-btn{
+    padding-right: 150px;
+    
   }
