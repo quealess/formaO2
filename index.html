@@ -9,6 +9,32 @@
 <body>
 
    
+              <div class="leftpanel">
+                  <div style="background-color: #F9F9FA; border-radius: 5px;" class="firstblock">
+                    <div style="background-color: white; border-radius: 50%; " class="persmile">
+                      <img style="margin: 20px;" class="smileface" src="./assets/smileface.png" alt="error">
+                    </div>
+                    
+                  
+                    <div class="famandpoku">
+                    <p class="savlaev" style="font-size: 16px;">Савлаев Александр</p>
+                    <p class="pokupatel" style="color: #969595; font-size: 14px;">Покупатель</p>
+                   </div>
+                  </div>
+                  
+                <div class="btnlist">
+                  <div style="position: relative;">
+                    <button style="color: #FC6E1D;">Мой профиль</button>
+                    <img class="poloska" src="./assets/poloska.png" alt="">
+                  </div>
+                
+                <button>Statut Club</button>
+                <button>Заказы</button>
+                <button>Избранные товары</button>
+                <button>Отзывы о товарах</button>
+                <button style="color: red;">Выход</button>
+                </div>
+             </div>
 
 
     <form >
@@ -56,19 +82,112 @@
           <input type="Otchestvo" id="Otchestvo" placeholder="Олегович">
           <i id="pass-toggle-btn" class="fa-solid fa-eye"></i>
         </div>
+
+
+
         <div class="form-group date" style="color: #969595;">
           <label for="date">Дата рождения</label>
-          <input type="date" id="date" placeholder="Select your date">
+          <div class="dataroj">
+            <select id="chislo">
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+              <option value="">6</option>
+              <option value="">7</option>
+              <option value="">8</option>
+              <option value="">9</option>
+              <option value="">10</option>
+              <option value="">11</option>
+              <option value="">12</option>
+              <option value="">13</option>
+              <option value="">14</option>
+              <option value="">15</option>
+              <option value="">16</option>
+              <option value="">17</option>
+              <option value="">18</option>
+              <option value="">19</option>
+              <option value="">20</option>
+              <option value="">21</option>
+              <option value="">22</option>
+              <option value="">23</option>
+              <option value="">24</option>
+              <option value="">25</option>
+              <option value="">26</option>
+              <option value="">27</option>
+              <option value="">28</option>
+              <option value="">29</option>
+              <option value="">30</option>
+              <option value="">31 </option>
+            </select>
+              <select id="monthj">
+                <option value="">Января</option>
+                <option value="">Февраля</option>
+                <option value="">Марта</option>
+                <option value="">Апреля</option>
+                <option value="">Мая</option>
+                <option value="">Июня</option>
+                <option value="">Июля</option>
+                <option value="">Августа</option>
+                <option value="">Сентября</option>
+                <option value="">Октября</option>
+                <option value="">Ноября</option>
+                <option value="">Декабря</option>
+              </select>
+              <select id="godj">
+
+              <option value="">1998</option>
+              <option value="">1999</option>
+              <option value="">2000</option>
+              <option value="">2001</option>
+              <option value="">2002</option>
+              <option value="">2003</option>
+              <option value="">2004</option>
+              <option value="">2005</option>
+              <option value="">2006</option>
+              <option value="">2007</option>
+              <option value="">2008</option>
+              <option value="">2009</option>
+              <option value="">2010</option>
+              <option value="">2011</option>
+              <option value="">2012</option>
+              <option value="">2013</option>
+              <option value="">2014</option>
+              <option value="">2015</option>
+              <option value="">2016</option>
+              <option value="">2017</option>
+              <option value="">2018</option>
+              <option value="">2019</option>
+              <option value="">2020</option>
+              <option value="">2021</option>
+              <option value="">2022</option>
+              <option value="">2023</option>
+              <option value="">2024 </option>
+              </select>
         </div>
+        </div>
+
+
+
         <div class="form-group gender" style="color: #969595;"> 
           <label for="gender">Пол</label>
-          <select id="gender">
+          <section class="radio-section">
+            <div class="radio-list">
+              <div class="radio-item">
+                <input name="radio" id="radio1" type="radio">
+                <label for="radio1" style="color: black;">Мужской</label>
+              </div>
+              <div class="radio-item">
+                <input name="radio" id="radio2" type="radio">
+                <label for="radio2" style="color:black">Женский</label>
+              </div>
+              
+            </div>
+          </section>
 
-            <option value="" selected disabled>Выберите свой пол</option>
-            <option value="Man">Мужской</option>
-            <option value="Woman">Женский</option>
 
-          </select>
+          
         </div>
         <div class="form-group submit-btn">
           <input type="" value="Сохранить изменения">

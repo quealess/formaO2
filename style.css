@@ -64,6 +64,7 @@
 }
   form .form-group {
     margin-bottom: 15px;
+    
     position: relative;
   }
   form label {
@@ -148,3 +149,146 @@
     padding-right: 150px;
     
   }
+
+.dataroj{
+    display: flex;
+    
+  }
+
+  #chislo{
+    
+      margin-right: 10px;
+      max-width: 120px;
+  }
+
+  #monthj{
+    margin-right: 10px;
+    
+  }
+  #godj{
+    max-width: 120px;
+    
+  }
+  
+
+/* пол. */
+
+.radio-list{
+  display: flex;
+  flex-direction: row;
+}
+.radio-section {
+	display: flex;
+  
+	align-items: center;
+	justify-content: flex-start;
+	
+}
+
+.radio-item [type="radio"] {
+	display: none;
+}
+.radio-item + .radio-item {
+	margin-left: 10px;
+}
+.radio-item label {
+	display: flex;
+  
+  
+	padding: 15px 85px 15px 15px;
+	background: #ffffff;
+  border: 1px solid #ccc;
+	
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+	max-width: 120px;
+	white-space: nowrap;
+	position: relative;
+	transition: 0.4s ease-in-out 0s;
+}
+
+
+
+.radio-item label:after,
+.radio-item label:before {
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+}
+
+.radio-item label:before {
+
+  
+	background: #FF7A00;
+  
+	height: 15px;
+	width: 15px;
+	left: 85px;
+	top: calc(50%-5px);
+	transform: scale(5);
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.4s ease-in-out 0s;
+}
+
+.radio-item [type="radio"]:checked ~ label::before {
+ 
+	opacity: 1;
+	visibility: visible;
+	transform: scale(1);
+}
+
+
+
+/* далее идет левая форма */
+
+
+.leftpanel{
+  background-color: white;
+  margin: 48px;
+  padding: 20px;
+  border-radius: 8px;
+
+  max-width: 360px;
+  max-height: 461px;
+}
+
+.btnlist{
+  
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.btnlist button{
+  
+  padding: 20px 180px 20px 5px;
+  background-color: white;
+  border: none;
+  
+  border-top: 1px solid #ccc;
+
+  text-align: start;
+}
+
+.firstblock{
+  display: flex;
+  align-items: center;
+  padding: 10px 1px 10px 11px;
+  
+}
+
+.famandpoku{
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.poloska{
+ position: absolute;
+ left: -5px;
+ top: -1px;
+  
+}
+
